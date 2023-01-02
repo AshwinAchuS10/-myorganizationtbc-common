@@ -1,0 +1,25 @@
+{
+  "name": "@myorganisationtbc/common",
+  "version": "1.0.2",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AshwinAchuS10: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@github.com/AshwinAchuS10/myorganisationtbc-common.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshwinAchuS10/myorganisationtbc-common/issues"
+  },
+  "homepage": "https://github.com/AshwinAchuS10/myorganisationtbc-common#readme",
+  "dependencies": {
+    "@azure/keyvault-secrets": "^4.6.0",
+    "rimraf": "3.0.2"
+  }
+}
