@@ -1,3 +1,4 @@
-import { AzureKeyVault } from "./azure.keyvault";
+import AzureKeyVault from "./src/common/azure/keyvault";
+import Logger from "./src/common/log/logger";
 
-export { AzureKeyVault }
+export { AzureKeyVault, Logger }

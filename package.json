@@ -1,6 +1,6 @@
 {
   "name": "@myorganisationtbc/common",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -20,6 +20,12 @@
   "homepage": "https://github.com/AshwinAchuS10/myorganisationtbc-common#readme",
   "dependencies": {
     "@azure/keyvault-secrets": "^4.6.0",
-    "rimraf": "3.0.2"
+    "bunyan": "^1.8.15",
+    "chalk": "^4.1.2",
+    "rimraf": "3.0.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.8"
   }
 }

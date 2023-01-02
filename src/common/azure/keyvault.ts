@@ -1,7 +1,7 @@
 import { TokenCredential } from '@azure/identity';
 import { SecretClient } from '@azure/keyvault-secrets';
 
-export class AzureKeyVault {
+export default class AzureKeyVault {
     constructor() { }
 
     public static getKeyVaultSecret = async (credential: TokenCredential, url: string) => {
